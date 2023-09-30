@@ -1,0 +1,48 @@
+/* Write your code here. */
+.white-bg {
+  background-color: #f1f5f8;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+@media screen and (max-width: 576px) {
+  .white-bg {
+    padding: 30px;
+  }
+}
+
+.faqs-bg {
+  background-color: #ffffff;
+  width: 700px;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .faqs-bg {
+    padding: 20px;
+  }
+}
+
+.Faqs-title {
+  color: #cb8805;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .Faqs-title {
+    font-size: 31px;
+  }
+}
+
+.faqs-unordered-list {
+  padding-left: 0px;
+}
